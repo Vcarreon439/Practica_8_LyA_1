@@ -45,10 +45,13 @@
             this.tbPgComprobador = new System.Windows.Forms.TabPage();
             this.tbPgDocumentacion = new System.Windows.Forms.TabPage();
             this.tbPgInfo = new System.Windows.Forms.TabPage();
+            this.label3 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.tbCntrl.SuspendLayout();
             this.tbPgGenerador.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            this.tbPgComprobador.SuspendLayout();
             this.SuspendLayout();
             // 
             // tbCntrl
@@ -217,6 +220,8 @@
             // 
             // tbPgComprobador
             // 
+            this.tbPgComprobador.Controls.Add(this.label3);
+            this.tbPgComprobador.Controls.Add(this.textBox1);
             this.tbPgComprobador.Location = new System.Drawing.Point(4, 22);
             this.tbPgComprobador.Name = "tbPgComprobador";
             this.tbPgComprobador.Padding = new System.Windows.Forms.Padding(3);
@@ -245,6 +250,22 @@
             this.tbPgInfo.Text = "Información ";
             this.tbPgInfo.UseVisualStyleBackColor = true;
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(17, 15);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(93, 13);
+            this.label3.TabIndex = 5;
+            this.label3.Text = "Expresión Regular";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(20, 35);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(303, 20);
+            this.textBox1.TabIndex = 4;
+            // 
             // frmPrograma
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -259,6 +280,8 @@
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            this.tbPgComprobador.ResumeLayout(false);
+            this.tbPgComprobador.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -282,6 +305,8 @@
         private System.Windows.Forms.TabPage tbPgComprobador;
         private System.Windows.Forms.TabPage tbPgDocumentacion;
         private System.Windows.Forms.TabPage tbPgInfo;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
 
