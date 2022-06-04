@@ -11,11 +11,11 @@ using System.Windows.Forms;
 
 namespace Practica_8_LyA_1
 {
-    public partial class Form1 : Form
+    public partial class frmPrograma : Form
     {
         Xeger obj;
 
-        public Form1()
+        public frmPrograma()
         {
             InitializeComponent();
         }
@@ -37,11 +37,8 @@ namespace Practica_8_LyA_1
             string[] textos = new string[cantidad];
 
             for (int i = 0; i < cantidad; i++)
-            {
                 textos[i] = expresion.Generate();
-            }
 
-            //Array.ForEach(textos, x => x = expresion.Generate());
             return textos;
         }
 
@@ -66,6 +63,18 @@ namespace Practica_8_LyA_1
 
         private void btnGenerar_Click(object sender, EventArgs e)
         {
+            if (txtRegex.Text!="")
+            {
+                this.obj = new Xeger(txtRegex.Text);
+                RellenarLista(GenerarTextos(this.obj, (int)numericUpDown1.Value));
+            }
+
+            if (obj == null)
+            {
+                MessageBox.Show("Porfavor ingrese una expresion", "Atencion!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
             lstResultados.Items.Clear();
             RellenarLista(GenerarTextos(this.obj, (int)numericUpDown1.Value));
             Console.WriteLine("Generado");
@@ -73,7 +82,8 @@ namespace Practica_8_LyA_1
 
         private void rdbtnNA_Click(object sender, EventArgs e)
         {
-            this
+            this.txtRegex.Text = "";
+            this.obj = null;
         }
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace Practica_8_LyA_1
 {
-    partial class Form1
+    partial class frmPrograma
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -245,14 +245,14 @@
             this.tbPgInfo.Text = "Información ";
             this.tbPgInfo.UseVisualStyleBackColor = true;
             // 
-            // Form1
+            // frmPrograma
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.tbCntrl);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "frmPrograma";
+            this.Text = "Practica 8 - Lenguajes y Automatas";
             this.tbCntrl.ResumeLayout(false);
             this.tbPgGenerador.ResumeLayout(false);
             this.tbPgGenerador.PerformLayout();
