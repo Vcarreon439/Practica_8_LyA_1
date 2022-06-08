@@ -229,8 +229,7 @@
             // 
             // tbPgComprobador
             // 
-            this.tbPgComprobador.Controls.Add(this.txtContenedorPruebas);
-            this.tbPgComprobador.Controls.Add(this.btnComprobar);
+            this.tbPgComprobador.Controls.Add(this.button1);
             this.tbPgComprobador.Controls.Add(this.groupBox2);
             this.tbPgComprobador.Controls.Add(this.label3);
             this.tbPgComprobador.Controls.Add(this.txtERComprobar);
@@ -242,23 +241,41 @@
             this.tbPgComprobador.Text = "Comprobar";
             this.tbPgComprobador.UseVisualStyleBackColor = true;
             // 
-            // txtContenedorPruebas
-            // 
-            this.txtContenedorPruebas.Location = new System.Drawing.Point(336, 39);
-            this.txtContenedorPruebas.Multiline = true;
-            this.txtContenedorPruebas.Name = "txtContenedorPruebas";
-            this.txtContenedorPruebas.Size = new System.Drawing.Size(414, 329);
-            this.txtContenedorPruebas.TabIndex = 9;
-            // 
             // btnComprobar
             // 
-            this.btnComprobar.Location = new System.Drawing.Point(15, 65);
+            this.btnComprobar.Location = new System.Drawing.Point(20, 64);
             this.btnComprobar.Name = "btnComprobar";
             this.btnComprobar.Size = new System.Drawing.Size(90, 23);
             this.btnComprobar.TabIndex = 8;
             this.btnComprobar.Text = "Comprobar";
             this.btnComprobar.UseVisualStyleBackColor = true;
             this.btnComprobar.Click += new System.EventHandler(this.btnComprobar_Click);
+            // 
+            // tbPgInfo
+            // 
+            this.tbPgInfo.Location = new System.Drawing.Point(4, 22);
+            this.tbPgInfo.Name = "tbPgInfo";
+            this.tbPgInfo.Padding = new System.Windows.Forms.Padding(3);
+            this.tbPgInfo.Size = new System.Drawing.Size(768, 391);
+            this.tbPgInfo.TabIndex = 3;
+            this.tbPgInfo.Text = "Información ";
+            this.tbPgInfo.UseVisualStyleBackColor = true;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(17, 15);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(93, 13);
+            this.label3.TabIndex = 5;
+            this.label3.Text = "Expresión Regular";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(20, 35);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(303, 20);
+            this.textBox1.TabIndex = 4;
             // 
             // groupBox2
             // 
@@ -267,7 +284,7 @@
             this.groupBox2.Controls.Add(this.radioButton3);
             this.groupBox2.Controls.Add(this.radioButton4);
             this.groupBox2.Controls.Add(this.radioButton5);
-            this.groupBox2.Location = new System.Drawing.Point(15, 109);
+            this.groupBox2.Location = new System.Drawing.Point(20, 104);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(303, 99);
             this.groupBox2.TabIndex = 7;
@@ -318,29 +335,30 @@
             this.radioButton4.Text = "Ejercicio 2";
             this.radioButton4.UseVisualStyleBackColor = true;
             // 
-            // radioButton5
+            // rdbtnCmp1
             // 
-            this.radioButton5.AutoSize = true;
-            this.radioButton5.Location = new System.Drawing.Point(15, 29);
-            this.radioButton5.Name = "radioButton5";
-            this.radioButton5.Size = new System.Drawing.Size(74, 17);
-            this.radioButton5.TabIndex = 0;
-            this.radioButton5.TabStop = true;
-            this.radioButton5.Text = "Ejercicio 1";
-            this.radioButton5.UseVisualStyleBackColor = true;
+            this.rdbtnCmp1.AutoSize = true;
+            this.rdbtnCmp1.Location = new System.Drawing.Point(15, 29);
+            this.rdbtnCmp1.Name = "rdbtnCmp1";
+            this.rdbtnCmp1.Size = new System.Drawing.Size(74, 17);
+            this.rdbtnCmp1.TabIndex = 0;
+            this.rdbtnCmp1.TabStop = true;
+            this.rdbtnCmp1.Text = "Ejercicio 1";
+            this.rdbtnCmp1.UseVisualStyleBackColor = true;
+            this.rdbtnCmp1.Click += new System.EventHandler(this.rdbtnCmp1_Click);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(12, 19);
+            this.label3.Location = new System.Drawing.Point(17, 15);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(93, 13);
             this.label3.TabIndex = 5;
             this.label3.Text = "Expresión Regular";
             // 
-            // txtERComprobar
+            // textBox1
             // 
-            this.txtERComprobar.Location = new System.Drawing.Point(15, 39);
+            this.txtERComprobar.Location = new System.Drawing.Point(20, 35);
             this.txtERComprobar.Name = "txtERComprobar";
             this.txtERComprobar.Size = new System.Drawing.Size(303, 20);
             this.txtERComprobar.TabIndex = 4;
@@ -364,6 +382,14 @@
             this.tbPgInfo.TabIndex = 3;
             this.tbPgInfo.Text = "Información ";
             this.tbPgInfo.UseVisualStyleBackColor = true;
+            // 
+            // txtContenedorPruebas
+            // 
+            this.txtContenedorPruebas.Location = new System.Drawing.Point(353, 35);
+            this.txtContenedorPruebas.Multiline = true;
+            this.txtContenedorPruebas.Name = "txtContenedorPruebas";
+            this.txtContenedorPruebas.Size = new System.Drawing.Size(371, 332);
+            this.txtContenedorPruebas.TabIndex = 9;
             // 
             // frmPrograma
             // 
@@ -407,15 +433,14 @@
         private System.Windows.Forms.TabPage tbPgDocumentacion;
         private System.Windows.Forms.TabPage tbPgInfo;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox txtERComprobar;
-        private System.Windows.Forms.Button btnComprobar;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.RadioButton radioButton1;
         private System.Windows.Forms.RadioButton radioButton2;
         private System.Windows.Forms.RadioButton radioButton3;
         private System.Windows.Forms.RadioButton radioButton4;
         private System.Windows.Forms.RadioButton radioButton5;
-        private System.Windows.Forms.TextBox txtContenedorPruebas;
     }
 }
 
