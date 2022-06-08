@@ -3,6 +3,8 @@ using Fare;
 using System.Text.RegularExpressions;
 
 using System.Windows.Forms;
+using System.IO;
+using System.Diagnostics;
 
 namespace Practica_8_LyA_1
 {
@@ -140,6 +142,13 @@ namespace Practica_8_LyA_1
         private void linkLabel4_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             System.Diagnostics.Process.Start("https://github.com/moodmosaic/Fare");
+        }
+
+        private void linkLabel6_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            string locationToSavePdf = Path.Combine(Path.GetTempPath(), "Regular expressions quick reference.pdf");  // select other location if you want
+            File.WriteAllBytes(locationToSavePdf, Properties.Resources.Regular_expressions_quick_reference);    // write the file from the resources to the location you want
+            Process.Start(locationToSavePdf);
         }
     }
 }
