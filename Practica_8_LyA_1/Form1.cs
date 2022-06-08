@@ -1,13 +1,7 @@
-﻿using Fare;
+﻿using System;
+using Fare;
 using System.Text.RegularExpressions;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 using System.Windows.Forms;
 
 namespace Practica_8_LyA_1
@@ -136,6 +130,16 @@ namespace Practica_8_LyA_1
         private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             System.Diagnostics.Process.Start("https://github.com/mejiaandiem3");
+        }
+
+        private void linkLabel5_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://docs.microsoft.com/es-es/dotnet/api/system.text.regularexpressions.regex");
+        }
+
+        private void linkLabel4_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://github.com/moodmosaic/Fare");
         }
     }
 }
