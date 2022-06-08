@@ -43,6 +43,7 @@
             this.lstResultados = new System.Windows.Forms.ListBox();
             this.txtRegex = new System.Windows.Forms.TextBox();
             this.tbPgComprobador = new System.Windows.Forms.TabPage();
+            this.txtContenedorPruebas = new System.Windows.Forms.TextBox();
             this.btnComprobar = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
@@ -54,7 +55,6 @@
             this.txtERComprobar = new System.Windows.Forms.TextBox();
             this.tbPgDocumentacion = new System.Windows.Forms.TabPage();
             this.tbPgInfo = new System.Windows.Forms.TabPage();
-            this.txtContenedorPruebas = new System.Windows.Forms.TextBox();
             this.tbCntrl.SuspendLayout();
             this.tbPgGenerador.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -242,9 +242,17 @@
             this.tbPgComprobador.Text = "Comprobar";
             this.tbPgComprobador.UseVisualStyleBackColor = true;
             // 
+            // txtContenedorPruebas
+            // 
+            this.txtContenedorPruebas.Location = new System.Drawing.Point(336, 39);
+            this.txtContenedorPruebas.Multiline = true;
+            this.txtContenedorPruebas.Name = "txtContenedorPruebas";
+            this.txtContenedorPruebas.Size = new System.Drawing.Size(414, 329);
+            this.txtContenedorPruebas.TabIndex = 9;
+            // 
             // btnComprobar
             // 
-            this.btnComprobar.Location = new System.Drawing.Point(20, 64);
+            this.btnComprobar.Location = new System.Drawing.Point(15, 65);
             this.btnComprobar.Name = "btnComprobar";
             this.btnComprobar.Size = new System.Drawing.Size(90, 23);
             this.btnComprobar.TabIndex = 8;
@@ -259,7 +267,7 @@
             this.groupBox2.Controls.Add(this.radioButton3);
             this.groupBox2.Controls.Add(this.radioButton4);
             this.groupBox2.Controls.Add(this.radioButton5);
-            this.groupBox2.Location = new System.Drawing.Point(20, 104);
+            this.groupBox2.Location = new System.Drawing.Point(15, 109);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(303, 99);
             this.groupBox2.TabIndex = 7;
@@ -324,7 +332,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(17, 15);
+            this.label3.Location = new System.Drawing.Point(12, 19);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(93, 13);
             this.label3.TabIndex = 5;
@@ -332,7 +340,7 @@
             // 
             // txtERComprobar
             // 
-            this.txtERComprobar.Location = new System.Drawing.Point(20, 35);
+            this.txtERComprobar.Location = new System.Drawing.Point(15, 39);
             this.txtERComprobar.Name = "txtERComprobar";
             this.txtERComprobar.Size = new System.Drawing.Size(303, 20);
             this.txtERComprobar.TabIndex = 4;
@@ -356,14 +364,6 @@
             this.tbPgInfo.TabIndex = 3;
             this.tbPgInfo.Text = "Información ";
             this.tbPgInfo.UseVisualStyleBackColor = true;
-            // 
-            // txtContenedorPruebas
-            // 
-            this.txtContenedorPruebas.Location = new System.Drawing.Point(353, 35);
-            this.txtContenedorPruebas.Multiline = true;
-            this.txtContenedorPruebas.Name = "txtContenedorPruebas";
-            this.txtContenedorPruebas.Size = new System.Drawing.Size(371, 332);
-            this.txtContenedorPruebas.TabIndex = 9;
             // 
             // frmPrograma
             // 
