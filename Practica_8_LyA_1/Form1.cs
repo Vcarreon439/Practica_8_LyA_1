@@ -85,5 +85,10 @@ namespace Practica_8_LyA_1
             this.txtRegex.Text = "";
             this.obj = null;
         }
+
+        private void rdbtnCmp1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
