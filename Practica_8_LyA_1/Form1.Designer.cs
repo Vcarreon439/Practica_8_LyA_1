@@ -69,6 +69,7 @@
             this.tbCntrl.Controls.Add(this.tbPgComprobador);
             this.tbCntrl.Controls.Add(this.tbPgDocumentacion);
             this.tbCntrl.Controls.Add(this.tbPgInfo);
+            this.tbCntrl.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbCntrl.Location = new System.Drawing.Point(12, 12);
             this.tbCntrl.Name = "tbCntrl";
             this.tbCntrl.SelectedIndex = 0;
@@ -85,10 +86,10 @@
             this.tbPgGenerador.Controls.Add(this.numericUpDown1);
             this.tbPgGenerador.Controls.Add(this.lstResultados);
             this.tbPgGenerador.Controls.Add(this.txtRegex);
-            this.tbPgGenerador.Location = new System.Drawing.Point(4, 22);
+            this.tbPgGenerador.Location = new System.Drawing.Point(4, 25);
             this.tbPgGenerador.Name = "tbPgGenerador";
             this.tbPgGenerador.Padding = new System.Windows.Forms.Padding(3);
-            this.tbPgGenerador.Size = new System.Drawing.Size(768, 391);
+            this.tbPgGenerador.Size = new System.Drawing.Size(768, 388);
             this.tbPgGenerador.TabIndex = 0;
             this.tbPgGenerador.Text = "Generador";
             // 
@@ -99,10 +100,11 @@
             this.groupBox1.Controls.Add(this.rdbtnEjer3);
             this.groupBox1.Controls.Add(this.rdbtnEjer2);
             this.groupBox1.Controls.Add(this.rdbtnEjer1);
+            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.ForeColor = System.Drawing.Color.White;
-            this.groupBox1.Location = new System.Drawing.Point(15, 109);
+            this.groupBox1.Location = new System.Drawing.Point(15, 126);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(303, 99);
+            this.groupBox1.Size = new System.Drawing.Size(303, 132);
             this.groupBox1.TabIndex = 6;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Precargar Expresiones";
@@ -110,9 +112,10 @@
             // rdbtnNA
             // 
             this.rdbtnNA.AutoSize = true;
-            this.rdbtnNA.Location = new System.Drawing.Point(207, 29);
+            this.rdbtnNA.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdbtnNA.Location = new System.Drawing.Point(137, 59);
             this.rdbtnNA.Name = "rdbtnNA";
-            this.rdbtnNA.Size = new System.Drawing.Size(65, 17);
+            this.rdbtnNA.Size = new System.Drawing.Size(86, 24);
             this.rdbtnNA.TabIndex = 4;
             this.rdbtnNA.TabStop = true;
             this.rdbtnNA.Text = "Ninguno";
@@ -122,9 +125,10 @@
             // rdbtnEjer4
             // 
             this.rdbtnEjer4.AutoSize = true;
-            this.rdbtnEjer4.Location = new System.Drawing.Point(116, 52);
+            this.rdbtnEjer4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdbtnEjer4.Location = new System.Drawing.Point(137, 29);
             this.rdbtnEjer4.Name = "rdbtnEjer4";
-            this.rdbtnEjer4.Size = new System.Drawing.Size(74, 17);
+            this.rdbtnEjer4.Size = new System.Drawing.Size(99, 24);
             this.rdbtnEjer4.TabIndex = 3;
             this.rdbtnEjer4.TabStop = true;
             this.rdbtnEjer4.Text = "Ejercicio 4";
@@ -134,9 +138,10 @@
             // rdbtnEjer3
             // 
             this.rdbtnEjer3.AutoSize = true;
-            this.rdbtnEjer3.Location = new System.Drawing.Point(116, 29);
+            this.rdbtnEjer3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdbtnEjer3.Location = new System.Drawing.Point(23, 89);
             this.rdbtnEjer3.Name = "rdbtnEjer3";
-            this.rdbtnEjer3.Size = new System.Drawing.Size(74, 17);
+            this.rdbtnEjer3.Size = new System.Drawing.Size(99, 24);
             this.rdbtnEjer3.TabIndex = 2;
             this.rdbtnEjer3.TabStop = true;
             this.rdbtnEjer3.Text = "Ejercicio 3";
@@ -146,9 +151,10 @@
             // rdbtnEjer2
             // 
             this.rdbtnEjer2.AutoSize = true;
-            this.rdbtnEjer2.Location = new System.Drawing.Point(15, 52);
+            this.rdbtnEjer2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdbtnEjer2.Location = new System.Drawing.Point(23, 59);
             this.rdbtnEjer2.Name = "rdbtnEjer2";
-            this.rdbtnEjer2.Size = new System.Drawing.Size(74, 17);
+            this.rdbtnEjer2.Size = new System.Drawing.Size(99, 24);
             this.rdbtnEjer2.TabIndex = 1;
             this.rdbtnEjer2.TabStop = true;
             this.rdbtnEjer2.Text = "Ejercicio 2";
@@ -158,9 +164,10 @@
             // rdbtnEjer1
             // 
             this.rdbtnEjer1.AutoSize = true;
-            this.rdbtnEjer1.Location = new System.Drawing.Point(15, 29);
+            this.rdbtnEjer1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdbtnEjer1.Location = new System.Drawing.Point(23, 29);
             this.rdbtnEjer1.Name = "rdbtnEjer1";
-            this.rdbtnEjer1.Size = new System.Drawing.Size(74, 17);
+            this.rdbtnEjer1.Size = new System.Drawing.Size(99, 24);
             this.rdbtnEjer1.TabIndex = 0;
             this.rdbtnEjer1.TabStop = true;
             this.rdbtnEjer1.Text = "Ejercicio 1";
@@ -170,18 +177,20 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(333, 19);
+            this.label2.Location = new System.Drawing.Point(332, 16);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(60, 13);
+            this.label2.Size = new System.Drawing.Size(90, 20);
             this.label2.TabIndex = 5;
             this.label2.Text = "Resultados";
             // 
             // btnGenerar
             // 
-            this.btnGenerar.Location = new System.Drawing.Point(15, 65);
+            this.btnGenerar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGenerar.Location = new System.Drawing.Point(15, 81);
             this.btnGenerar.Name = "btnGenerar";
-            this.btnGenerar.Size = new System.Drawing.Size(90, 23);
+            this.btnGenerar.Size = new System.Drawing.Size(90, 32);
             this.btnGenerar.TabIndex = 4;
             this.btnGenerar.Text = "Generar";
             this.btnGenerar.UseVisualStyleBackColor = true;
@@ -190,23 +199,25 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(12, 19);
+            this.label1.Location = new System.Drawing.Point(11, 16);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(93, 13);
+            this.label1.Size = new System.Drawing.Size(139, 20);
             this.label1.TabIndex = 3;
             this.label1.Text = "Expresión Regular";
             // 
             // numericUpDown1
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(258, 68);
+            this.numericUpDown1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.numericUpDown1.Location = new System.Drawing.Point(258, 85);
             this.numericUpDown1.Minimum = new decimal(new int[] {
             1,
             0,
             0,
             0});
             this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(60, 20);
+            this.numericUpDown1.Size = new System.Drawing.Size(60, 26);
             this.numericUpDown1.TabIndex = 2;
             this.numericUpDown1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.numericUpDown1.Value = new decimal(new int[] {
@@ -217,17 +228,20 @@
             // 
             // lstResultados
             // 
+            this.lstResultados.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lstResultados.FormattingEnabled = true;
-            this.lstResultados.Location = new System.Drawing.Point(336, 39);
+            this.lstResultados.ItemHeight = 20;
+            this.lstResultados.Location = new System.Drawing.Point(336, 45);
             this.lstResultados.Name = "lstResultados";
-            this.lstResultados.Size = new System.Drawing.Size(414, 329);
+            this.lstResultados.Size = new System.Drawing.Size(414, 324);
             this.lstResultados.TabIndex = 1;
             // 
             // txtRegex
             // 
-            this.txtRegex.Location = new System.Drawing.Point(15, 39);
+            this.txtRegex.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtRegex.Location = new System.Drawing.Point(15, 45);
             this.txtRegex.Name = "txtRegex";
-            this.txtRegex.Size = new System.Drawing.Size(303, 20);
+            this.txtRegex.Size = new System.Drawing.Size(303, 26);
             this.txtRegex.TabIndex = 0;
             // 
             // tbPgComprobador
@@ -238,15 +252,16 @@
             this.tbPgComprobador.Controls.Add(this.groupBox2);
             this.tbPgComprobador.Controls.Add(this.label3);
             this.tbPgComprobador.Controls.Add(this.txtERComprobar);
-            this.tbPgComprobador.Location = new System.Drawing.Point(4, 22);
+            this.tbPgComprobador.Location = new System.Drawing.Point(4, 25);
             this.tbPgComprobador.Name = "tbPgComprobador";
             this.tbPgComprobador.Padding = new System.Windows.Forms.Padding(3);
-            this.tbPgComprobador.Size = new System.Drawing.Size(768, 391);
+            this.tbPgComprobador.Size = new System.Drawing.Size(768, 388);
             this.tbPgComprobador.TabIndex = 1;
             this.tbPgComprobador.Text = "Comprobar";
             // 
             // txtContenedorPruebas
             // 
+            this.txtContenedorPruebas.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtContenedorPruebas.Location = new System.Drawing.Point(336, 39);
             this.txtContenedorPruebas.Multiline = true;
             this.txtContenedorPruebas.Name = "txtContenedorPruebas";
@@ -255,9 +270,10 @@
             // 
             // btnComprobar
             // 
-            this.btnComprobar.Location = new System.Drawing.Point(15, 65);
+            this.btnComprobar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnComprobar.Location = new System.Drawing.Point(15, 81);
             this.btnComprobar.Name = "btnComprobar";
-            this.btnComprobar.Size = new System.Drawing.Size(90, 23);
+            this.btnComprobar.Size = new System.Drawing.Size(90, 32);
             this.btnComprobar.TabIndex = 8;
             this.btnComprobar.Text = "Comprobar";
             this.btnComprobar.UseVisualStyleBackColor = true;
@@ -270,10 +286,11 @@
             this.groupBox2.Controls.Add(this.rdbtnCmp3);
             this.groupBox2.Controls.Add(this.rdbtnCmp2);
             this.groupBox2.Controls.Add(this.rdbtnCmp1);
+            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.ForeColor = System.Drawing.Color.White;
-            this.groupBox2.Location = new System.Drawing.Point(15, 109);
+            this.groupBox2.Location = new System.Drawing.Point(15, 126);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(303, 99);
+            this.groupBox2.Size = new System.Drawing.Size(303, 132);
             this.groupBox2.TabIndex = 7;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Precargar Expresiones";
@@ -281,11 +298,11 @@
             // rdbtnNA2
             // 
             this.rdbtnNA2.AutoSize = true;
-            this.rdbtnNA2.Location = new System.Drawing.Point(207, 29);
+            this.rdbtnNA2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdbtnNA2.Location = new System.Drawing.Point(137, 59);
             this.rdbtnNA2.Name = "rdbtnNA2";
-            this.rdbtnNA2.Size = new System.Drawing.Size(65, 17);
+            this.rdbtnNA2.Size = new System.Drawing.Size(86, 24);
             this.rdbtnNA2.TabIndex = 4;
-            this.rdbtnNA2.TabStop = true;
             this.rdbtnNA2.Text = "Ninguno";
             this.rdbtnNA2.UseVisualStyleBackColor = true;
             this.rdbtnNA2.Click += new System.EventHandler(this.rdbtnNA2_Click);
@@ -293,11 +310,11 @@
             // rdbtnCmp4
             // 
             this.rdbtnCmp4.AutoSize = true;
-            this.rdbtnCmp4.Location = new System.Drawing.Point(116, 52);
+            this.rdbtnCmp4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdbtnCmp4.Location = new System.Drawing.Point(137, 29);
             this.rdbtnCmp4.Name = "rdbtnCmp4";
-            this.rdbtnCmp4.Size = new System.Drawing.Size(74, 17);
+            this.rdbtnCmp4.Size = new System.Drawing.Size(99, 24);
             this.rdbtnCmp4.TabIndex = 3;
-            this.rdbtnCmp4.TabStop = true;
             this.rdbtnCmp4.Text = "Ejercicio 4";
             this.rdbtnCmp4.UseVisualStyleBackColor = true;
             this.rdbtnCmp4.Click += new System.EventHandler(this.rdbtnCmp4_Click);
@@ -305,11 +322,11 @@
             // rdbtnCmp3
             // 
             this.rdbtnCmp3.AutoSize = true;
-            this.rdbtnCmp3.Location = new System.Drawing.Point(116, 29);
+            this.rdbtnCmp3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdbtnCmp3.Location = new System.Drawing.Point(23, 89);
             this.rdbtnCmp3.Name = "rdbtnCmp3";
-            this.rdbtnCmp3.Size = new System.Drawing.Size(74, 17);
+            this.rdbtnCmp3.Size = new System.Drawing.Size(99, 24);
             this.rdbtnCmp3.TabIndex = 2;
-            this.rdbtnCmp3.TabStop = true;
             this.rdbtnCmp3.Text = "Ejercicio 3";
             this.rdbtnCmp3.UseVisualStyleBackColor = true;
             this.rdbtnCmp3.Click += new System.EventHandler(this.rdbtnCmp3_Click);
@@ -317,11 +334,11 @@
             // rdbtnCmp2
             // 
             this.rdbtnCmp2.AutoSize = true;
-            this.rdbtnCmp2.Location = new System.Drawing.Point(15, 52);
+            this.rdbtnCmp2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdbtnCmp2.Location = new System.Drawing.Point(23, 59);
             this.rdbtnCmp2.Name = "rdbtnCmp2";
-            this.rdbtnCmp2.Size = new System.Drawing.Size(74, 17);
+            this.rdbtnCmp2.Size = new System.Drawing.Size(99, 24);
             this.rdbtnCmp2.TabIndex = 1;
-            this.rdbtnCmp2.TabStop = true;
             this.rdbtnCmp2.Text = "Ejercicio 2";
             this.rdbtnCmp2.UseVisualStyleBackColor = true;
             this.rdbtnCmp2.Click += new System.EventHandler(this.rdbtnCmp2_Click);
@@ -329,11 +346,11 @@
             // rdbtnCmp1
             // 
             this.rdbtnCmp1.AutoSize = true;
-            this.rdbtnCmp1.Location = new System.Drawing.Point(15, 29);
+            this.rdbtnCmp1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdbtnCmp1.Location = new System.Drawing.Point(23, 29);
             this.rdbtnCmp1.Name = "rdbtnCmp1";
-            this.rdbtnCmp1.Size = new System.Drawing.Size(74, 17);
+            this.rdbtnCmp1.Size = new System.Drawing.Size(99, 24);
             this.rdbtnCmp1.TabIndex = 0;
-            this.rdbtnCmp1.TabStop = true;
             this.rdbtnCmp1.Text = "Ejercicio 1";
             this.rdbtnCmp1.UseVisualStyleBackColor = true;
             this.rdbtnCmp1.Click += new System.EventHandler(this.rdbtnCmp1_Click);
@@ -341,39 +358,41 @@
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(12, 19);
+            this.label3.Location = new System.Drawing.Point(11, 16);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(93, 13);
+            this.label3.Size = new System.Drawing.Size(139, 20);
             this.label3.TabIndex = 5;
             this.label3.Text = "Expresión Regular";
             // 
             // txtERComprobar
             // 
-            this.txtERComprobar.Location = new System.Drawing.Point(15, 39);
+            this.txtERComprobar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtERComprobar.Location = new System.Drawing.Point(15, 45);
             this.txtERComprobar.Name = "txtERComprobar";
-            this.txtERComprobar.Size = new System.Drawing.Size(303, 20);
+            this.txtERComprobar.Size = new System.Drawing.Size(303, 26);
             this.txtERComprobar.TabIndex = 4;
             // 
             // tbPgDocumentacion
             // 
-            this.tbPgDocumentacion.Location = new System.Drawing.Point(4, 22);
+            this.tbPgDocumentacion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
+            this.tbPgDocumentacion.Location = new System.Drawing.Point(4, 25);
             this.tbPgDocumentacion.Name = "tbPgDocumentacion";
             this.tbPgDocumentacion.Padding = new System.Windows.Forms.Padding(3);
-            this.tbPgDocumentacion.Size = new System.Drawing.Size(768, 391);
+            this.tbPgDocumentacion.Size = new System.Drawing.Size(768, 388);
             this.tbPgDocumentacion.TabIndex = 2;
             this.tbPgDocumentacion.Text = "Documentación";
-            this.tbPgDocumentacion.UseVisualStyleBackColor = true;
             // 
             // tbPgInfo
             // 
-            this.tbPgInfo.Location = new System.Drawing.Point(4, 22);
+            this.tbPgInfo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
+            this.tbPgInfo.Location = new System.Drawing.Point(4, 25);
             this.tbPgInfo.Name = "tbPgInfo";
             this.tbPgInfo.Padding = new System.Windows.Forms.Padding(3);
-            this.tbPgInfo.Size = new System.Drawing.Size(768, 391);
+            this.tbPgInfo.Size = new System.Drawing.Size(768, 388);
             this.tbPgInfo.TabIndex = 3;
             this.tbPgInfo.Text = "Información ";
-            this.tbPgInfo.UseVisualStyleBackColor = true;
             // 
             // frmPrograma
             // 
