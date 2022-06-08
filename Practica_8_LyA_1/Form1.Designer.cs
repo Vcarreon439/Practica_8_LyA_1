@@ -55,7 +55,6 @@
             this.txtERComprobar = new System.Windows.Forms.TextBox();
             this.tbPgDocumentacion = new System.Windows.Forms.TabPage();
             this.tbPgInfo = new System.Windows.Forms.TabPage();
-            this.button1 = new System.Windows.Forms.Button();
             this.tbCntrl.SuspendLayout();
             this.tbPgGenerador.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -78,7 +77,6 @@
             // 
             // tbPgGenerador
             // 
-            this.tbPgGenerador.Controls.Add(this.button1);
             this.tbPgGenerador.Controls.Add(this.groupBox1);
             this.tbPgGenerador.Controls.Add(this.label2);
             this.tbPgGenerador.Controls.Add(this.btnGenerar);
@@ -367,15 +365,6 @@
             this.tbPgInfo.Text = "Información ";
             this.tbPgInfo.UseVisualStyleBackColor = true;
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(228, 214);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(90, 47);
-            this.button1.TabIndex = 7;
-            this.button1.Text = "Generar";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
             // frmPrograma
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -427,7 +416,6 @@
         private System.Windows.Forms.RadioButton radioButton4;
         private System.Windows.Forms.RadioButton radioButton5;
         private System.Windows.Forms.TextBox txtContenedorPruebas;
-        private System.Windows.Forms.Button button1;
     }
 }
 
