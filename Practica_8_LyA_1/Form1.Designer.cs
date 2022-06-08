@@ -46,11 +46,11 @@
             this.txtContenedorPruebas = new System.Windows.Forms.TextBox();
             this.btnComprobar = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
-            this.radioButton4 = new System.Windows.Forms.RadioButton();
-            this.radioButton5 = new System.Windows.Forms.RadioButton();
+            this.rdbtnNA2 = new System.Windows.Forms.RadioButton();
+            this.rdbtnCmp4 = new System.Windows.Forms.RadioButton();
+            this.rdbtnCmp3 = new System.Windows.Forms.RadioButton();
+            this.rdbtnCmp2 = new System.Windows.Forms.RadioButton();
+            this.rdbtnCmp1 = new System.Windows.Forms.RadioButton();
             this.label3 = new System.Windows.Forms.Label();
             this.txtERComprobar = new System.Windows.Forms.TextBox();
             this.tbPgDocumentacion = new System.Windows.Forms.TabPage();
@@ -262,11 +262,11 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.radioButton1);
-            this.groupBox2.Controls.Add(this.radioButton2);
-            this.groupBox2.Controls.Add(this.radioButton3);
-            this.groupBox2.Controls.Add(this.radioButton4);
-            this.groupBox2.Controls.Add(this.radioButton5);
+            this.groupBox2.Controls.Add(this.rdbtnNA2);
+            this.groupBox2.Controls.Add(this.rdbtnCmp4);
+            this.groupBox2.Controls.Add(this.rdbtnCmp3);
+            this.groupBox2.Controls.Add(this.rdbtnCmp2);
+            this.groupBox2.Controls.Add(this.rdbtnCmp1);
             this.groupBox2.Location = new System.Drawing.Point(15, 109);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(303, 99);
@@ -274,60 +274,65 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Precargar Expresiones";
             // 
-            // radioButton1
+            // rdbtnNA2
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(207, 29);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(65, 17);
-            this.radioButton1.TabIndex = 4;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Ninguno";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.rdbtnNA2.AutoSize = true;
+            this.rdbtnNA2.Location = new System.Drawing.Point(207, 29);
+            this.rdbtnNA2.Name = "rdbtnNA2";
+            this.rdbtnNA2.Size = new System.Drawing.Size(65, 17);
+            this.rdbtnNA2.TabIndex = 4;
+            this.rdbtnNA2.TabStop = true;
+            this.rdbtnNA2.Text = "Ninguno";
+            this.rdbtnNA2.UseVisualStyleBackColor = true;
+            this.rdbtnNA2.Click += new System.EventHandler(this.rdbtnNA2_Click);
             // 
-            // radioButton2
+            // rdbtnCmp4
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(116, 52);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(74, 17);
-            this.radioButton2.TabIndex = 3;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Ejercicio 4";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.rdbtnCmp4.AutoSize = true;
+            this.rdbtnCmp4.Location = new System.Drawing.Point(116, 52);
+            this.rdbtnCmp4.Name = "rdbtnCmp4";
+            this.rdbtnCmp4.Size = new System.Drawing.Size(74, 17);
+            this.rdbtnCmp4.TabIndex = 3;
+            this.rdbtnCmp4.TabStop = true;
+            this.rdbtnCmp4.Text = "Ejercicio 4";
+            this.rdbtnCmp4.UseVisualStyleBackColor = true;
+            this.rdbtnCmp4.Click += new System.EventHandler(this.rdbtnCmp4_Click);
             // 
-            // radioButton3
+            // rdbtnCmp3
             // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(116, 29);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(74, 17);
-            this.radioButton3.TabIndex = 2;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "Ejercicio 3";
-            this.radioButton3.UseVisualStyleBackColor = true;
+            this.rdbtnCmp3.AutoSize = true;
+            this.rdbtnCmp3.Location = new System.Drawing.Point(116, 29);
+            this.rdbtnCmp3.Name = "rdbtnCmp3";
+            this.rdbtnCmp3.Size = new System.Drawing.Size(74, 17);
+            this.rdbtnCmp3.TabIndex = 2;
+            this.rdbtnCmp3.TabStop = true;
+            this.rdbtnCmp3.Text = "Ejercicio 3";
+            this.rdbtnCmp3.UseVisualStyleBackColor = true;
+            this.rdbtnCmp3.Click += new System.EventHandler(this.rdbtnCmp3_Click);
             // 
-            // radioButton4
+            // rdbtnCmp2
             // 
-            this.radioButton4.AutoSize = true;
-            this.radioButton4.Location = new System.Drawing.Point(15, 52);
-            this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(74, 17);
-            this.radioButton4.TabIndex = 1;
-            this.radioButton4.TabStop = true;
-            this.radioButton4.Text = "Ejercicio 2";
-            this.radioButton4.UseVisualStyleBackColor = true;
+            this.rdbtnCmp2.AutoSize = true;
+            this.rdbtnCmp2.Location = new System.Drawing.Point(15, 52);
+            this.rdbtnCmp2.Name = "rdbtnCmp2";
+            this.rdbtnCmp2.Size = new System.Drawing.Size(74, 17);
+            this.rdbtnCmp2.TabIndex = 1;
+            this.rdbtnCmp2.TabStop = true;
+            this.rdbtnCmp2.Text = "Ejercicio 2";
+            this.rdbtnCmp2.UseVisualStyleBackColor = true;
+            this.rdbtnCmp2.Click += new System.EventHandler(this.rdbtnCmp2_Click);
             // 
-            // radioButton5
+            // rdbtnCmp1
             // 
-            this.radioButton5.AutoSize = true;
-            this.radioButton5.Location = new System.Drawing.Point(15, 29);
-            this.radioButton5.Name = "radioButton5";
-            this.radioButton5.Size = new System.Drawing.Size(74, 17);
-            this.radioButton5.TabIndex = 0;
-            this.radioButton5.TabStop = true;
-            this.radioButton5.Text = "Ejercicio 1";
-            this.radioButton5.UseVisualStyleBackColor = true;
+            this.rdbtnCmp1.AutoSize = true;
+            this.rdbtnCmp1.Location = new System.Drawing.Point(15, 29);
+            this.rdbtnCmp1.Name = "rdbtnCmp1";
+            this.rdbtnCmp1.Size = new System.Drawing.Size(74, 17);
+            this.rdbtnCmp1.TabIndex = 0;
+            this.rdbtnCmp1.TabStop = true;
+            this.rdbtnCmp1.Text = "Ejercicio 1";
+            this.rdbtnCmp1.UseVisualStyleBackColor = true;
+            this.rdbtnCmp1.Click += new System.EventHandler(this.rdbtnCmp1_Click);
             // 
             // label3
             // 
@@ -410,11 +415,11 @@
         private System.Windows.Forms.TextBox txtERComprobar;
         private System.Windows.Forms.Button btnComprobar;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton3;
-        private System.Windows.Forms.RadioButton radioButton4;
-        private System.Windows.Forms.RadioButton radioButton5;
+        private System.Windows.Forms.RadioButton rdbtnNA2;
+        private System.Windows.Forms.RadioButton rdbtnCmp4;
+        private System.Windows.Forms.RadioButton rdbtnCmp3;
+        private System.Windows.Forms.RadioButton rdbtnCmp2;
+        private System.Windows.Forms.RadioButton rdbtnCmp1;
         private System.Windows.Forms.TextBox txtContenedorPruebas;
     }
 }

@@ -97,5 +97,30 @@ namespace Practica_8_LyA_1
                 }
             }
         }
+
+        private void rdbtnCmp1_Click(object sender, EventArgs e)
+        {
+            this.txtERComprobar.Text = @"^[1-9]+[02468]$";
+        }
+
+        private void rdbtnCmp2_Click(object sender, EventArgs e)
+        {
+            this.txtERComprobar.Text = @"^[aeiuoAEIOU][1-9]+[A]$";
+        }
+
+        private void rdbtnCmp3_Click(object sender, EventArgs e)
+        {
+            this.txtERComprobar.Text = @"^[AB]{2,3}[CD]{3,4}[DE]{4,5}$";
+        }
+
+        private void rdbtnCmp4_Click(object sender, EventArgs e)
+        {
+            this.txtERComprobar.Text = @"^[a-zA-Z]+[a-zA-Z\w_-]+@[a-zA-Z0-9]+(\.(com){1})(\.(mx)){0,1}$";
+        }
+
+        private void rdbtnNA2_Click(object sender, EventArgs e)
+        {
+            this.txtERComprobar.Text = "";
+        }
     }
 }
