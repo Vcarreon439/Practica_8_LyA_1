@@ -1,4 +1,5 @@
 ﻿using Fare;
+using System.Text.RegularExpressions;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -86,9 +87,15 @@ namespace Practica_8_LyA_1
             this.obj = null;
         }
 
-        private void rdbtnCmp1_Click(object sender, EventArgs e)
+        private void btnComprobar_Click(object sender, EventArgs e)
         {
-
+            foreach (string item in txtContenedorPruebas.Lines)
+            {
+                if (!Regex.IsMatch(item, $@"{txtERComprobar.Text}$"))
+                {
+                    MessageBox.Show($"La cadena {item} no comple con el formato");
+                }
+            }
         }
     }
 }

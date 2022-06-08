@@ -43,18 +43,14 @@
             this.lstResultados = new System.Windows.Forms.ListBox();
             this.txtRegex = new System.Windows.Forms.TextBox();
             this.tbPgComprobador = new System.Windows.Forms.TabPage();
-            this.textBox2 = new System.Windows.Forms.TextBox();
             this.btnComprobar = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.radioButton3 = new System.Windows.Forms.RadioButton();
             this.radioButton4 = new System.Windows.Forms.RadioButton();
-            this.rdbtnCmp1 = new System.Windows.Forms.RadioButton();
-            this.label3 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.tbPgDocumentacion = new System.Windows.Forms.TabPage();
-            this.tbPgInfo = new System.Windows.Forms.TabPage();
+            this.radioButton5 = new System.Windows.Forms.RadioButton();
+            this.button1 = new System.Windows.Forms.Button();
             this.tbCntrl.SuspendLayout();
             this.tbPgGenerador.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -229,11 +225,10 @@
             // 
             // tbPgComprobador
             // 
-            this.tbPgComprobador.Controls.Add(this.textBox2);
-            this.tbPgComprobador.Controls.Add(this.btnComprobar);
+            this.tbPgComprobador.Controls.Add(this.button1);
             this.tbPgComprobador.Controls.Add(this.groupBox2);
             this.tbPgComprobador.Controls.Add(this.label3);
-            this.tbPgComprobador.Controls.Add(this.textBox1);
+            this.tbPgComprobador.Controls.Add(this.txtERComprobar);
             this.tbPgComprobador.Location = new System.Drawing.Point(4, 22);
             this.tbPgComprobador.Name = "tbPgComprobador";
             this.tbPgComprobador.Padding = new System.Windows.Forms.Padding(3);
@@ -242,22 +237,41 @@
             this.tbPgComprobador.Text = "Comprobar";
             this.tbPgComprobador.UseVisualStyleBackColor = true;
             // 
-            // textBox2
+            // tbPgDocumentacion
             // 
-            this.textBox2.Location = new System.Drawing.Point(336, 39);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(414, 329);
-            this.textBox2.TabIndex = 9;
+            this.tbPgDocumentacion.Location = new System.Drawing.Point(4, 22);
+            this.tbPgDocumentacion.Name = "tbPgDocumentacion";
+            this.tbPgDocumentacion.Padding = new System.Windows.Forms.Padding(3);
+            this.tbPgDocumentacion.Size = new System.Drawing.Size(768, 391);
+            this.tbPgDocumentacion.TabIndex = 2;
+            this.tbPgDocumentacion.Text = "Documentación";
+            this.tbPgDocumentacion.UseVisualStyleBackColor = true;
             // 
-            // btnComprobar
+            // tbPgInfo
             // 
-            this.btnComprobar.Location = new System.Drawing.Point(20, 65);
-            this.btnComprobar.Name = "btnComprobar";
-            this.btnComprobar.Size = new System.Drawing.Size(90, 23);
-            this.btnComprobar.TabIndex = 8;
-            this.btnComprobar.Text = "Comprobar";
-            this.btnComprobar.UseVisualStyleBackColor = true;
+            this.tbPgInfo.Location = new System.Drawing.Point(4, 22);
+            this.tbPgInfo.Name = "tbPgInfo";
+            this.tbPgInfo.Padding = new System.Windows.Forms.Padding(3);
+            this.tbPgInfo.Size = new System.Drawing.Size(768, 391);
+            this.tbPgInfo.TabIndex = 3;
+            this.tbPgInfo.Text = "Información ";
+            this.tbPgInfo.UseVisualStyleBackColor = true;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(17, 15);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(93, 13);
+            this.label3.TabIndex = 5;
+            this.label3.Text = "Expresión Regular";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(20, 35);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(303, 20);
+            this.textBox1.TabIndex = 4;
             // 
             // groupBox2
             // 
@@ -355,15 +369,14 @@
             this.tbPgDocumentacion.Text = "Documentación";
             this.tbPgDocumentacion.UseVisualStyleBackColor = true;
             // 
-            // tbPgInfo
+            // button1
             // 
-            this.tbPgInfo.Location = new System.Drawing.Point(4, 22);
-            this.tbPgInfo.Name = "tbPgInfo";
-            this.tbPgInfo.Padding = new System.Windows.Forms.Padding(3);
-            this.tbPgInfo.Size = new System.Drawing.Size(768, 391);
-            this.tbPgInfo.TabIndex = 3;
-            this.tbPgInfo.Text = "Información ";
-            this.tbPgInfo.UseVisualStyleBackColor = true;
+            this.button1.Location = new System.Drawing.Point(20, 64);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(90, 23);
+            this.button1.TabIndex = 8;
+            this.button1.Text = "Generar";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // frmPrograma
             // 
@@ -408,14 +421,13 @@
         private System.Windows.Forms.TabPage tbPgInfo;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button btnComprobar;
+        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.RadioButton radioButton1;
         private System.Windows.Forms.RadioButton radioButton2;
         private System.Windows.Forms.RadioButton radioButton3;
         private System.Windows.Forms.RadioButton radioButton4;
-        private System.Windows.Forms.RadioButton rdbtnCmp1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.RadioButton radioButton5;
     }
 }
 
