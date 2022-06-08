@@ -55,12 +55,20 @@
             this.txtERComprobar = new System.Windows.Forms.TextBox();
             this.tbPgDocumentacion = new System.Windows.Forms.TabPage();
             this.tbPgInfo = new System.Windows.Forms.TabPage();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.linkLabel2 = new System.Windows.Forms.LinkLabel();
+            this.linkLabel3 = new System.Windows.Forms.LinkLabel();
             this.tbCntrl.SuspendLayout();
             this.tbPgGenerador.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             this.tbPgComprobador.SuspendLayout();
             this.groupBox2.SuspendLayout();
+            this.tbPgInfo.SuspendLayout();
             this.SuspendLayout();
             // 
             // tbCntrl
@@ -273,7 +281,7 @@
             this.btnComprobar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnComprobar.Location = new System.Drawing.Point(15, 81);
             this.btnComprobar.Name = "btnComprobar";
-            this.btnComprobar.Size = new System.Drawing.Size(90, 32);
+            this.btnComprobar.Size = new System.Drawing.Size(108, 32);
             this.btnComprobar.TabIndex = 8;
             this.btnComprobar.Text = "Comprobar";
             this.btnComprobar.UseVisualStyleBackColor = true;
@@ -387,12 +395,105 @@
             // tbPgInfo
             // 
             this.tbPgInfo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
+            this.tbPgInfo.Controls.Add(this.linkLabel3);
+            this.tbPgInfo.Controls.Add(this.linkLabel2);
+            this.tbPgInfo.Controls.Add(this.linkLabel1);
+            this.tbPgInfo.Controls.Add(this.label7);
+            this.tbPgInfo.Controls.Add(this.label6);
+            this.tbPgInfo.Controls.Add(this.label5);
+            this.tbPgInfo.Controls.Add(this.label4);
             this.tbPgInfo.Location = new System.Drawing.Point(4, 25);
             this.tbPgInfo.Name = "tbPgInfo";
             this.tbPgInfo.Padding = new System.Windows.Forms.Padding(3);
             this.tbPgInfo.Size = new System.Drawing.Size(768, 388);
             this.tbPgInfo.TabIndex = 3;
             this.tbPgInfo.Text = "Información ";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.White;
+            this.label4.Location = new System.Drawing.Point(19, 21);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(287, 20);
+            this.label4.TabIndex = 0;
+            this.label4.Text = "Instituto Tecnológico Superior de Lerdo";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.White;
+            this.label5.Location = new System.Drawing.Point(19, 48);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(246, 20);
+            this.label5.TabIndex = 1;
+            this.label5.Text = "Materia: Lenguajes y Automatas I";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.White;
+            this.label6.Location = new System.Drawing.Point(19, 75);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(215, 20);
+            this.label6.TabIndex = 2;
+            this.label6.Text = "Docente: Lic. Roberto Garcia";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.White;
+            this.label7.Location = new System.Drawing.Point(19, 130);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(65, 20);
+            this.label7.TabIndex = 3;
+            this.label7.Text = "Autores";
+            // 
+            // linkLabel1
+            // 
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabel1.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline;
+            this.linkLabel1.LinkColor = System.Drawing.Color.White;
+            this.linkLabel1.Location = new System.Drawing.Point(29, 161);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(295, 20);
+            this.linkLabel1.TabIndex = 4;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Text = "Victor Hugo Carreon Pulido - 192310436";
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
+            // 
+            // linkLabel2
+            // 
+            this.linkLabel2.AutoSize = true;
+            this.linkLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabel2.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline;
+            this.linkLabel2.LinkColor = System.Drawing.Color.White;
+            this.linkLabel2.Location = new System.Drawing.Point(29, 194);
+            this.linkLabel2.Name = "linkLabel2";
+            this.linkLabel2.Size = new System.Drawing.Size(292, 20);
+            this.linkLabel2.TabIndex = 5;
+            this.linkLabel2.TabStop = true;
+            this.linkLabel2.Text = "Andrea Evelyn Mejia Rubio - 192310177";
+            this.linkLabel2.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel2_LinkClicked);
+            // 
+            // linkLabel3
+            // 
+            this.linkLabel3.AutoSize = true;
+            this.linkLabel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabel3.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline;
+            this.linkLabel3.LinkColor = System.Drawing.Color.White;
+            this.linkLabel3.Location = new System.Drawing.Point(29, 227);
+            this.linkLabel3.Name = "linkLabel3";
+            this.linkLabel3.Size = new System.Drawing.Size(331, 20);
+            this.linkLabel3.TabIndex = 6;
+            this.linkLabel3.TabStop = true;
+            this.linkLabel3.Text = "Edgar Eduardo Arguijo Vazquez - 192310252";
+            this.linkLabel3.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel3_LinkClicked);
             // 
             // frmPrograma
             // 
@@ -413,6 +514,8 @@
             this.tbPgComprobador.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
+            this.tbPgInfo.ResumeLayout(false);
+            this.tbPgInfo.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -446,6 +549,13 @@
         private System.Windows.Forms.RadioButton rdbtnCmp2;
         private System.Windows.Forms.RadioButton rdbtnCmp1;
         private System.Windows.Forms.TextBox txtContenedorPruebas;
+        private System.Windows.Forms.LinkLabel linkLabel1;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.LinkLabel linkLabel3;
+        private System.Windows.Forms.LinkLabel linkLabel2;
     }
 }
 
