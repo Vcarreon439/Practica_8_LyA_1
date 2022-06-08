@@ -77,6 +77,7 @@
             // 
             // tbPgGenerador
             // 
+            this.tbPgGenerador.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
             this.tbPgGenerador.Controls.Add(this.groupBox1);
             this.tbPgGenerador.Controls.Add(this.label2);
             this.tbPgGenerador.Controls.Add(this.btnGenerar);
@@ -90,7 +91,6 @@
             this.tbPgGenerador.Size = new System.Drawing.Size(768, 391);
             this.tbPgGenerador.TabIndex = 0;
             this.tbPgGenerador.Text = "Generador";
-            this.tbPgGenerador.UseVisualStyleBackColor = true;
             // 
             // groupBox1
             // 
@@ -99,6 +99,7 @@
             this.groupBox1.Controls.Add(this.rdbtnEjer3);
             this.groupBox1.Controls.Add(this.rdbtnEjer2);
             this.groupBox1.Controls.Add(this.rdbtnEjer1);
+            this.groupBox1.ForeColor = System.Drawing.Color.White;
             this.groupBox1.Location = new System.Drawing.Point(15, 109);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(303, 99);
@@ -169,6 +170,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(333, 19);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(60, 13);
@@ -188,6 +190,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(12, 19);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(93, 13);
@@ -229,6 +232,7 @@
             // 
             // tbPgComprobador
             // 
+            this.tbPgComprobador.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
             this.tbPgComprobador.Controls.Add(this.txtContenedorPruebas);
             this.tbPgComprobador.Controls.Add(this.btnComprobar);
             this.tbPgComprobador.Controls.Add(this.groupBox2);
@@ -240,7 +244,6 @@
             this.tbPgComprobador.Size = new System.Drawing.Size(768, 391);
             this.tbPgComprobador.TabIndex = 1;
             this.tbPgComprobador.Text = "Comprobar";
-            this.tbPgComprobador.UseVisualStyleBackColor = true;
             // 
             // txtContenedorPruebas
             // 
@@ -267,6 +270,7 @@
             this.groupBox2.Controls.Add(this.rdbtnCmp3);
             this.groupBox2.Controls.Add(this.rdbtnCmp2);
             this.groupBox2.Controls.Add(this.rdbtnCmp1);
+            this.groupBox2.ForeColor = System.Drawing.Color.White;
             this.groupBox2.Location = new System.Drawing.Point(15, 109);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(303, 99);
@@ -337,6 +341,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(12, 19);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(93, 13);
@@ -374,7 +379,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
+            this.ClientSize = new System.Drawing.Size(800, 438);
             this.Controls.Add(this.tbCntrl);
             this.Name = "frmPrograma";
             this.Text = "Practica 8 - Lenguajes y Automatas";
